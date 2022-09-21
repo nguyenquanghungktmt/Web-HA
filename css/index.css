@@ -1,6 +1,6 @@
 .login-section{
   width: 140vh;
-  height: 90vh;
+  height: 95vh;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -188,17 +188,17 @@
 /* Định dạng bên phải */
 .login-content-right{
   height: 100%;
-  flex: 0.8;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  background-image: url("../images/img-girl.jpg");
+  background-image: url("../images/girl-right.png");
   background-size: cover;
   padding: 16px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.login-content-right-body{
+/* .login-content-right-body{
   width: 100%;
   color: white;
   background-color:rgb(250, 232, 210, 0.4);
@@ -221,7 +221,7 @@
 
 .login-content-right-body p:nth-child(3){
   font-size: 16px;
-}
+} */
 
 /* Responsive 800px */
 @media only screen and (max-width: 800px) {
